@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Choix du produit</title>
+</head>
+<body>
+<h1>Veuillez choisir un produit</h1>
+
+
+<form action="reviews_product" method="post">
+{% csrf_token %}
+    <label for="url_scrap">Url à scrapper</label><br>
+    <input type="text" name="url_scrap" id="url_scrap">
+<input type="submit" value="url">
+</form>
+</body>
+</html>
