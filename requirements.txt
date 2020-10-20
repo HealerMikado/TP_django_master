@@ -1,2 +1,5 @@
 lxml
 Django
+gunicorn
+python-dotenv
+requests
